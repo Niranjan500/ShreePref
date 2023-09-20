@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/name"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="20sp"
+       android:hint="Enter your name"
+       />
+    <EditText
+       android:id="@+id/Email"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="20sp"
+        android:hint="Enter your email"
+        android:layout_below="@id/name"
+       />
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:backgroundTint="#D32121"
+        android:text="Save"
+        />
+    <Button
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_above="@id/save"
+        android:text="Show"
+        android:backgroundTint="@color/black"
+        android:layout_margin="40dp"
+        />
+
+
+
+
+</RelativeLayout>
